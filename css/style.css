@@ -178,7 +178,7 @@ hr {
 }
 
 /* media query */
-@media screen and (min-width:300px) and (max-width:450px){
+@media screen and (min-width:200px) and (max-width:480px){
 
     
     .list-non-bullet{
@@ -199,6 +199,10 @@ hr {
        justify-content: center;
        font-size: 12px;
     }
+     .image{
+       margin:auto;
+       width: 100%;
+    } 
 
     .footer{
         font-size: x-small;
