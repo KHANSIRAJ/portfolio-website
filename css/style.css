@@ -27,7 +27,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -37,6 +37,7 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: inline;
+    width: 20px;
 }
 
 .link-primary {
@@ -44,7 +45,7 @@ hr {
     border-radius: 0.5rem;
     color: white;
     display:inline;
-    max-width: 140px;
+    max-width: 80px;
     margin: 1rem 1rem 1rem 0rem;
 }
 
@@ -53,7 +54,7 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: inline;
-    max-width: 140px;
+    max-width: 80px;
     margin: 1rem 1rem 1rem 0rem;
 }
 
@@ -129,37 +130,33 @@ hr {
 /** sections **/
 
 .section {
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 .section h1 {
     text-align: center;
-
 }
 
 .ow {
     background-color: var(--off-white);
 }
 
-/* resume section */
- .resume-section{
-    padding: 9rem;
- }
 /* img */
 .image{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 
 /** footers **/
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 260px;
 }
 
 .footer .link {
@@ -178,10 +175,33 @@ hr {
 /** projects **/
 .showcase-list {
     padding: 2rem;
-   
 }
 
-/** blogs **/
-.showcase-blog {
-    padding-bottom: 6rem;
+/* media query */
+@media screen and (min-width:300px) and (max-width:450px){
+
+    
+    .list-non-bullet{
+        font-size: x-small; 
+    }
+
+    .link-primary{
+       display: inline-block;
+       width: 120px;
+       text-align: center;
+       justify-content: center;
+       font-size: 12px;
+    }
+    .link-secondary{
+       display: inline-block;
+       width: 120px;
+       text-align: center;
+       justify-content: center;
+       font-size: 12px;
+    }
+
+    .footer{
+        font-size: x-small;
+    }
+
 }
